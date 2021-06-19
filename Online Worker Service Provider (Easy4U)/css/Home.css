@@ -1,0 +1,821 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+.container{
+  width:70%;
+  margin:auto;
+  overflow:hidden;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+header{
+  background:#239023;
+  color:#ffffff;
+  padding-top:20px;
+  min-height:60px;
+  border-bottom:#000000 3px solid;
+  position: fixed;
+  width: 100%;
+}
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+header #upperLeft a{
+  color:#ffff00;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:20px;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float:left;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+header .highlight, header .current a{
+  color:#000000;
+  font-weight:bold;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#239023;
+  background-color:#1f1f2e;
+  width: 100%;
+  text-align: center;
+}
+footer a{
+  color: #ffffff;
+}
+footer .Footer{
+  float: left;
+  text-align: center;
+  padding: 10px;
+  padding-left: 10%;
+}
+footer #FooterService{
+  padding-left: 20px;
+  padding-top: 50px;
+
+}
+footer #FooterAboutUs{
+  float: center;
+  padding-left: 300px;
+
+}
+footer #FooterTitle{
+  float: center;
+
+}
+#showcase{
+  min-height:400px;
+  background:url('../img/cartoon.jpg') no-repeat 0 +200px;
+  background-position: center 220px;
+  padding-top: 30px;
+  text-align:left;
+  color:#29a329;
+}
+#showcase h1{
+  margin-top:100px;
+  font-size:45px;
+  margin-bottom:10px;
+}
+.HireNow{
+  height:38px;
+  background:#29a329;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+  float: right;
+  margin-right: 120px;
+  margin-top: 100px;
+}
+#tranjection{
+  margin-top: 10px;
+  margin-left: 60px; 
+  align-items: center;
+}
+#tranjection .tran{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+  background: #29a329;
+  color: #ffffff;
+  align-items: center;
+}
+
+#menuPara{
+  min-height:100px;
+  text-align:center;
+  color:#000000;
+  margin-top:50px;
+
+}
+#menuPara p{
+  margin-top:10px;
+  font-size:25px;
+}
+#menuPara a{
+  color: #ff0000;
+  font-size:23px;
+}
+#menuPara .highlight{
+  color:#29a329;
+  font-weight:bold;
+}
+#ourServices{
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 8%;
+}
+#ourServices .service{
+  float:left;
+  text-align: center;
+  width:20%;
+  padding:10px;
+  color: #000000;
+  padding-top: 10px;
+}
+#ourServices li{
+  color: #000000;
+}
+#ourServices a{
+  color: #000000;
+}
+#ourServices h2{
+  text-align: center;
+  padding-right: 14%;
+  font-size:35px;
+}
+#ourServices .highlight{
+  color:#29a329;
+  font-weight:bold;
+}
+#ourServices .service img{
+  width: 60px;
+}
+#contactlist{
+  margin-top: 5px;
+  margin-left: 10px; 
+  padding-left: 20%;
+}
+#contactlist .contact{
+  float:left;
+  text-align: center;
+  width:20%;
+  padding:10px;
+  color: #29a329;
+  padding-top: 5px;
+}
+
+/*................/// Customer hireNow.......*/
+aside#CustomerHireNow{
+  align-items: right;
+  float:right;
+  padding-right: 100px ;
+  width:35%;
+  margin-top:60px;
+  margin-bottom:20px;
+}
+aside#CustomerHireNow .contact select{
+  width:98%;
+  padding:10px;
+  background: #F7F7F7;
+  border: #29a329 2px solid;
+}
+aside#CustomerHireNow .HireNowBack2{
+  padding:15px;
+  background:;
+  color:#000000;
+  border-right: #29a329 2px solid;
+  border-left: #29a329 3px solid;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+aside#CustomerHireNow .HireNow{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: 80%;
+  margin-right: 32px;
+
+}
+aside#CustomerHireNow label{
+  text-transform: uppercase;
+  font-size:16px;
+}
+aside#CustomerHireNow .contact input{
+  width:90%;
+  padding:10px;
+  border: 0;
+  background: #F7F7F7;
+  border: #29a329 2px solid;
+}
+/*..................Login&Signup................*/
+
+#LoginSignupbar
+{
+  padding-top: 0px;
+}
+aside#Signupbar{
+  align-items: left;
+  float:left;
+  padding-right: 50px ;
+  width:55%;
+  margin-top:150px;
+  margin-bottom:20px;
+  border-right: #29a329 2px solid;
+  background: #F7F7F7;
+}
+aside#Signupbar .contact input{
+  width:90%;
+  padding:5px;
+  border: 0;
+  background: #F7F7F7;
+  border: #29a329 2px solid;
+}
+aside#Signupbar .HireNowBack2{
+  padding:15px;
+  background:;
+  color:#000000;
+  border-right: #29a329 2px solid;
+  border-left: #29a329 3px solid;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-left: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+}
+.Signup{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background: #29a329;
+  padding: 15px;
+  border:0;
+  color: #ffffff;
+  margin-left: 70%;
+}
+aside#Signupbar label{
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+
+aside#Loginbar{
+  align-items: right;
+  float:right;
+  padding-right: 10px ;
+  width:25%;
+  margin-top:300px;
+  margin-bottom:20px;
+  margin-left: 0px;
+  background:;
+}
+aside#Loginbar .contact input{
+  width:90%;
+  padding:10px;
+  margin-bottom: 10px;
+}
+aside#Loginbar .HireNowBack2{
+  padding:15px;
+  background:;
+  color:#000000;
+  border-right: #29a329 2px solid;
+  border-left: #29a329 3px solid;
+  margin-top:10px;
+  margin-bottom:0px;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+aside#Loginbar .Login{
+  margin-bottom: 0px;
+  background: #29a329;
+  padding: 15px;
+  border:0;
+  color: #ffffff;
+  margin-left: 70%;
+}
+aside#Loginbar label{
+  text-transform: uppercase;
+  font-size:16px;
+}
+#LoginSignup#LoginSignupbar{
+  align-items: left;
+}
+#LoginSignup#Loginbar{
+  align-items: right;
+}
+#LoginSignupbar .highlight{
+  color:#29a329;
+  font-weight:bold;
+}
+
+/*..................Customer................*/
+
+aside#CustomerRequest{
+  float:left;
+  padding-right: 10px ;
+  width:98%;
+  margin-top:20px;
+  margin-bottom:20px;
+  
+}
+aside#CustomerRequest .HireNowBack2{
+  padding:15px;
+  background:;
+  color:#000000;
+  border : #29a329 2px solid;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 300px;
+}
+aside#CustomerRequest .HireNowBack1{
+  border-left: #29a329 2px solid;
+  border-bottom: #29a329 2px solid;
+  text-align: center;
+  margin-right: 80%;
+
+}
+
+aside#WorkToDo{
+  float:left;
+  padding-right: 10px ;
+  width:98%;
+  margin-top:20px;
+  margin-bottom:20px;
+  
+}
+aside#WorkToDo .HireNowBack2{
+  padding:15px;
+  background:;
+  color:#000000;
+  border : #29a329 2px solid;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 220px;
+}
+aside#WorkToDo .HireNowBack1{
+  border-left: #29a329 2px solid;
+  border-bottom: #29a329 2px solid;
+  text-align: center;
+  margin-right: 80%;
+
+}
+#customerTextbar .highlight{
+  color:#29a329;
+  font-weight:bold;
+}
+#availableWorker{
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 8%;
+}
+#availableWorker .tran{
+  float:left;
+  text-align: center;
+  width:20%;
+  padding:10px;
+  color: #000000;
+  padding-top: 10px;
+}
+#availableWorker li{
+  color: #000000;
+}
+#availableWorker a{
+  color: #000000;
+}
+#availableWorker h3{
+  text-align: center;
+  padding-right: 14%;
+  font-size:18px;
+  color: #29a329;
+}
+#availableWorker h1{
+  color: #29a329;
+}
+#availableWorker .highlight{
+  color:#29a329;
+  font-weight:bold;
+}
+#availableWorker .tran img{
+  width: 60px;
+}
+
+#myTranjection{
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 22%;
+}
+#myTranjection .tran{
+  float:left;
+  text-align: center;
+  width:20%;
+  padding:10px;
+  color: #000000;
+  padding-top: 10px;
+}
+#myTranjection li{
+  color: #000000;
+}
+#myTranjection a{
+  color: #000000;
+}
+#myTranjection h3{
+  text-align: center;
+  padding-right: 14%;
+  font-size:18px;
+  color: #29a329;
+}
+#myTranjection h1{
+  color: #29a329;
+}
+#myTranjection .highlight{
+  color:#29a329;
+  font-weight:bold;
+}
+#myTranjection .tran img{
+  width: 60px;
+}
+
+/*.............Custmer.........................*/
+
+#Customerbar#CustomerSidebar{
+  float: left;
+  width: 20%;
+  padding-bottom: 33.7%;
+  background: ;
+  border-right: #29a329 3px solid;
+}
+
+#CustomerSidebar.CustomerSidebar{
+  float: left;
+}
+#CustomerSidebar a{
+  color:#000000;
+  text-decoration:none;
+  text-transform: uppercase;
+
+  font-size:16px;
+}
+#CustomerSidebar li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+#CustomerSidebar .current a{
+  color:#29a329;
+  font-weight:bold;
+}
+#CustomerSidebar nav{
+  margin-top: 50px;
+}
+
+#CustomerSidebar{
+  float: left;
+  width: 20%;
+  padding-bottom: 30%;
+  background: ;
+  border-right: #29a329 3px solid;
+  padding-top: 100px;
+}
+#customerTextbar.textbarContact
+{
+  float: center;
+}
+#customerTextbar
+{
+  padding-top: 130px;
+  background: ;
+}
+#Customerbar#customerTextbar{
+  align-items: left;
+}
+#Customerbar#CustomerHireNow{
+  align-items: right;
+}
+
+/*..........................CustomerAccount............*/
+#customerAccountInfo.accountInfoContact
+{
+  float: center;
+}
+#customerAccountInfo
+{
+  padding-top: 130px;
+  border: #29a329 2px solid;
+  margin-left: 308px;
+}
+#CustomerAccountInfo#customerAccountInfo{
+  align-items: left;
+}
+
+article#main-col{
+  float:left;
+  width:50%;
+}
+ul#services li{
+  list-style: none;
+  padding:5px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+/*................////customerLOad///,,,,,,,,,,,,*/
+#loadCustomer{
+  padding-top: 125px;
+}
+#Customerload{
+  width: 100%;
+  align-items: left;
+  margin-left: 0px;
+
+}
+#Customerload h2
+{   
+  font-size: 15px;
+
+}
+#Customerload .tableLayout{
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 0 ;
+}
+#Customerload .tableLayout td {
+    border: 2px solid black;
+    padding: 10px 5px 0;
+}
+#customerload .tableLayout thead {
+    border: 3px solid #ffffff;
+    padding: 10px 5px 0;
+}
+#Customerload .tableLayout td {
+    text-align: left;
+}
+aside#load{
+  align-items: left;
+    float: left;
+    width: 75%;
+
+    margin-right: 10%;
+    margin-right: 10px;
+}
+aside#loadUpdate{
+  padding-right: ;
+  padding-top: 10px;
+  padding-left: 5px;
+  align-items: left;
+    float: right;
+    width: 23%;
+    border-right: #29a329 2px solid;
+    border: #29a329 2px solid;
+
+}
+aside#loadUpdate input{
+  width:90%;
+  padding:5px;
+  margin-bottom: 10px;
+  padding-right: 8px;
+  border-bottom: #29a329 2px solid;
+}
+aside#loadUpdate label{
+ font-size: 17px; 
+}
+aside#loadUpdate .Update{
+  margin-left: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  background: #29a329;
+  padding: 15px;
+  border:0;
+  color: #ffffff;
+ 
+}
+aside#loadUpdate .Add{
+  margin-bottom: 5px;
+  margin-top: 10px;
+  background: #29a329;
+  padding: 15px;
+  border:0;
+  color: #ffffff;
+}
+aside#loadUpdate .Delete{
+  margin-bottom: 5px;
+  margin-top: 10px;
+  background: #29a329;
+  padding: 15px;
+  border:0;
+  color: #ffffff;
+}
+#Customerload .Refresh, .search{
+  margin-bottom: 10px;
+  margin-top: px;
+  background: #29a329;
+  padding: 10px;
+  border:0;
+  color: #ffffff;
+}
+#search{
+  margin-bottom: 10px;
+  width: 80%;
+  margin-top: px;
+  background: ;
+  border: 1px solid #29a329;
+  padding: 10px;
+}
+aside#load #buttonpg{
+    padding-top: 30px;
+    padding-left: 30%;
+}  
+.buttonpg {
+        background-color: #29a329;
+        color: black;
+        border: 2px solid #000000;
+        cursor: pointer;
+        padding: 8px 16px;
+      }
+
+.buttonpg:hover {
+        background-color: #666;
+        color: white;
+      }
+
+
+.scrollOFTable
+    {
+      height: 200px;
+      width: 100%;
+      overflow: auto;
+      overflow-x: hidden;
+    }
+    .highlight{
+  color:#29a329;
+  font-weight:bold;
+}
+
+
+aside#loadRequest{
+  margin-top: 30px;
+  align-items: left;
+    float: right;
+    width: 23%;
+    border: 2px solid #29a329;
+}
+aside#loadRequest label{
+ font-size: 17px; 
+}
+aside#loadRequest .loadRequestTop{
+  background-color: #29a329;
+  width: 100%;
+  padding: 20px; 
+  border: 2px solid #29a329;
+  font-weight: bold;
+}
+aside#loadRequest .loadRequestDown{ 
+  width: 100%;
+  padding: 20px; 
+  background-color: #cccccc;
+}
+aside#loadRequest .loadRequestButtonSet{
+  border: 2px solid #29a329;
+  padding: 3px;
+  background-color: #666;
+}
+.loadRequestSearchButton{
+  border: 2px solid #29a329;
+  padding: 8px 16px;
+  margin-left: 2px;
+  background-color: #29a329;
+  color: white;
+}
+.loadRequestDeleteButton{
+  border: 2px solid #29a329;
+  padding: 8px 16px;
+  margin-left: 55px;
+  color: red;
+}
+.scrollOFRequest
+    {
+      height: 500px;
+      width: 100%;
+      overflow: auto;
+      overflow-x: hidden;
+    }
+
+/*..............///calculation\\\\\\\\\......*/
+
+.loadAssignWorkerTop{
+  background-color: #29a329;
+  width: 94.5%;
+  padding: 20px; 
+  border: 2px solid #29a329;
+  font-weight: bold;
+}
+.loadAssignWorkerDown{ 
+  border: 2px solid #29a329;
+  width:40%;
+  padding: 20px; 
+  background-color: #cccccc;
+}
+.loadAssignButtonSet{
+  border: 2px solid #29a329;
+  padding: 3px;
+  width:44.30%;
+  background-color: #666;
+}
+.scrollOFAssignWorker
+    {
+      height: 300px;
+      width: 100%;
+      overflow: auto;
+      overflow-x: hidden;
+    }
+/*................////customerRequest Admin//,,,,,,,,,,,,*/
+#confirmRequest{
+  width: 98%;
+  margin-top: 30px;
+  float: left;
+  padding-left: 5px;
+  border: 2px solid #29a329;
+}
+#confirmRequest label{ 
+display: inline-block;
+text-align: right;
+float: left;
+font-size: 15px;
+font-weight: normal;
+}
+aside .leftConfirm{
+  padding: 12px;
+  float: left;
+  align-items: left;
+  margin-top: 5px;
+  width: 36%;
+  border: 1px solid #29a329;
+}
+aside .rightConfirm{
+  float: right;
+  margin: 10px;  
+  padding: 10px;
+  width: 50%; 
+  border: 1px solid #29a329;
+  height: 130px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+aside .rightConfirm ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+aside .rightConfirm ul li{
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  padding: 1px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+aside .rightConfirm ul li:hover{
+ background-color: #eee;
+}
+aside .rightConfirm .close{
+ cursor: pointer;
+ position: absolute;
+ top: -5%;
+ right: 0%;
+ padding: 2px 3px;
+}
+aside .rightConfirm .close:hover{
+  background-color: #bbb;
+}

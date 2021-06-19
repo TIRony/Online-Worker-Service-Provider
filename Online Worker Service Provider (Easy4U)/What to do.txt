@@ -1,0 +1,71 @@
+Add scroll menu bar in heading to look cool
+onclick mark at table
+worker rating from customer
+set * to rating
+grap confirm request data after loadout
+onkeyup among searching
+
+
+
+
+
+
+
+
+
+morning........
+worker rating from customer
+previous record
+CV
+worker 00
+
+
+
+
+
+
+
+
+
+if($_SERVER["REQUEST_METHOD"] == "POST")
+ {
+   if(isset($_POST['signout'])){
+       $_SESSION['userName'] = "";
+       header("Refresh:0; url=Home.php");
+    }
+  }
+?>
+
+    <div class="container">
+      <form method="post" action="">
+    <div id="branding">
+          <h1><span class="highlight">Easy4U</span></h1>
+        </div>
+        <div id="upperRightBranding">
+        <nav>
+          <ul>
+            <li><a href="">Contact</a></li>
+            <h5>Call: 01951265659</h5>
+          </ul>
+        </nav>
+        </div>
+        <div id="upperLeft">
+        <nav>
+          <ul>
+            <li><button type="submit" name="signout" id="logout">Logout</button></li>
+          </ul>
+        </nav>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="Home.php">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">How it works</a></li>
+          </ul>
+        </nav>
+      </form>
+    </div>
+  </header>
+
+
