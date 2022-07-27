@@ -52,7 +52,47 @@ There are 4-types of Users here:
     • Can see account information.
     • Update account.
     • Change Status.
+    
+<h3>Diagram:</h3>
+
+<b>ER Diagram:</b>
+
+<p align="center">
+<img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/er_Diagram.png" width="750"></img>
+</p>
+
+<h3>System Image:</h3>
+    
+<b>Landing page:</b>
 
 <p align="center">
 <img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/Home.jpg" width="750"></img>
-<p>
+</p>
+    
+<b>Sign up & Login page:</b>
+
+<p align="center">
+<img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/login.jpg" width="750"></img>
+</p>
+    
+<b>Customer page:</b>
+
+<p align="center">
+<img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/customer.jpg" width="750"></img>
+</p>
+    
+<b>Admin & Employee page:</b>
+
+<p align="center">
+<img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/employee.jpg" width="750"></img>
+</p>
+
+<b>Worker page:</b>
+
+<p align="center">
+<img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/worker.jpg" width="750"></img>
+</p>
+
+<h3>Impact of this project:</h3>
+
+Online service provider systems are new enablers in the online market. Customers have their own needs and employees can find all the ways, methods and resources to meet their needs. With the help of this project, people can easily hire workers and fulfill their needs in a simple way.
